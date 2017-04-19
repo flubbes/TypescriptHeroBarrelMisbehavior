@@ -1,10 +1,12 @@
 # TypescriptHeroBarrelMisbehavior
 
-This repository is only for bug reproducing purposes for `buehler/typescript-hero`
+This repository is only for bug reproducing purposes for `buehler/typescript-hero`.
 
-Install the packages with `yarn install` or `npm install`
+Install the packages with `yarn install` or `npm install`.
 
-Go to `./src/app/app.component.ts` and follow the instructions in the comment on line 16
+Go to `./src/app/app.component.ts` and follow the instructions in the comment on line 16.
+
+The correct import would be `@angular/forms` instead of `@angular/forms/forms`.
 
 ## Before importing
 ![Before importing](https://i.shnig.de/mdCVEi "Before importing")
